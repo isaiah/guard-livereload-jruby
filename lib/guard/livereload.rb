@@ -1,5 +1,7 @@
 require 'guard'
 require 'guard/guard'
+require 'java'
+require File.join(File.dirname(__FILE__), '../../ext/WebSocket.jar')
 
 module Guard
   class LiveReload < Guard
